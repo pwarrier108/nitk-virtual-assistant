@@ -18,9 +18,7 @@ Comprehensive gitignore file that prevents sensitive and generated files from be
 
 **Important:** The following will NOT be committed:
 - `.env` (your environment variables)
-- `Copyofenv.txt` (backup env file)
 - `nitk-virtual-assistant-*.json` (Google credentials)
-- `linkedin_cookies.json` (session cookies)
 - `outputs/chroma_db/` (vector database - too large)
 - `cache/` (translation and audio cache)
 - `logs/` (application logs)
