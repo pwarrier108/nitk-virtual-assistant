@@ -297,9 +297,7 @@ nitkmodular/
 Before pushing to GitHub:
 
 - [x] `.env` is in `.gitignore`
-- [x] `Copyofenv.txt` is in `.gitignore`
 - [x] All `*credentials*.json` are in `.gitignore`
-- [x] `linkedin_cookies.json` is in `.gitignore`
 - [x] `.env.example` contains NO actual secrets (only placeholders)
 - [ ] **Action Required:** Copy `.env.example` to `.env` and add real values
 - [ ] **Action Required:** Never commit `.env` file
