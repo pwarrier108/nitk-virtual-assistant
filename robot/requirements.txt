@@ -1,0 +1,24 @@
+# Core dependencies
+requests>=2.28.0
+pygame>=2.1.0
+SpeechRecognition>=3.10.0
+
+# Google Cloud services
+google-cloud-texttospeech>=2.14.0
+
+# Translation
+deep-translator>=1.11.0
+
+# Audio processing
+pyaudio>=0.2.11
+
+# System utilities
+logging
+time
+threading
+signal
+sys
+os
+re
+tempfile
+typing

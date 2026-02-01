@@ -1,0 +1,46 @@
+{
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "Who is the director of NITK?",
+      "answer": "The current director of the National Institute of Technology Karnataka (NITK), Surathkal, is Dr. Bhallamudi Ravi. He took charge as the new director on June 15, 2023, appointed by the Ministry of Education, Government of India. Prior to this role, he was an Institute Chair Professor of Mechanical Engineering at IIT Bombay and is known for his work in metal casting and medical devices.",
+      "emotion": "neutral"
+    },
+    {
+      "id": 2,
+      "question": "Tell me more",
+      "answer": "Dr. Bhallamudi Ravi brings a strong legacy of innovation, entrepreneurship, and academic leadership. Since joining as Director, he has emphasized interdisciplinary, value-based education and is actively driving industry-aligned curriculum reforms and infrastructure growth. He also fosters entrepreneurial thinking among students and strengthens alumni and national collaborations. Before NITK, he spent over three decades at IIT Bombay, where he led impactful initiatives in mechanical engineering and biomedical innovation, including the development of the AutoCAST software and the BETIC medical device innovation center.",
+      "emotion": "explaining"
+    },
+    {
+      "id": 3,
+      "question": "Translate to Hindi",
+      "answer": "डॉ. भल्लमुडि रवि नवाचार, उद्यमिता और शैक्षणिक नेतृत्व की एक मजबूत विरासत लेकर आए हैं। निदेशक के रूप में कार्यभार संभालने के बाद से, उन्होंने बहुविषयक और मूल्य-आधारित शिक्षा पर ज़ोर दिया है और उद्योग-समन्वित पाठ्यक्रम सुधार तथा आधारभूत संरचना के विकास को सक्रिय रूप से आगे बढ़ाया है। वे छात्रों में उद्यमशील सोच को प्रोत्साहित करते हैं और पूर्व छात्रों व राष्ट्रीय स्तर पर सहयोग को सुदृढ़ कर रहे हैं। एनआईटीके से पहले, उन्होंने आईआईटी बॉम्बे में तीन दशकों से अधिक समय तक कार्य किया, जहाँ उन्होंने मैकेनिकल इंजीनियरिंग और जैव-चिकित्सा नवाचार के क्षेत्र में प्रभावशाली पहलों का नेतृत्व किया, जिनमें AutoCAST सॉफ़्टवेयर का विकास और BETIC (मेडिकल डिवाइस इनोवेशन सेंटर) की स्थापना शामिल है।",
+      "emotion": "explaining"
+    },
+    {
+      "id": 4,
+      "question": "How are the students at NITK?",
+      "answer": "The students of NITK are absolutely exceptional! They're brilliant minds who consistently excel in academics, research, and innovation. I'm really proud of their achievements in engineering and technology.",
+      "emotion": "ecstatic"
+    },
+    {
+      "id": 5,
+      "question": "Current temperature at NITK?",
+      "answer": "NITK weather conditions are similar to the nearby town of Surathkal, Karnataka. As of July 17, 2025, 5:30 AM IST, the area is experiencing light rain and low clouds. The current temperature is 74°F (23.3°C). The forecast predicts a high of 82°F (27.8°C) and a low of 78°F (25.6°C). For the most accurate and up-to-date conditions, national weather services or local apps are recommended.",
+      "emotion": "neutral"
+    },
+    {
+      "id": 6,
+      "question": "Beach activities at NITK",
+      "answer": "NITK Surathkal has a vibrant beach culture with various activities. The Yoga Club hosted a blissful yoga session on the beach, attracting over several participants. Additionally, a significant beach cleaning drive took place on 22-09-2024, where more than 300 individuals came together to support the environment. These activities highlight the community's commitment to wellness and environmental stewardship.",
+      "emotion": "excited"
+    },
+    {
+      "id": 7,
+      "question": "Translate to Kannada",
+      "answer": "ಇನ್‌ಐಟಿಕೆ ಸುರತ್ಕಲ್‌ ساحರ ತೀರದ ಸಂಸ್ಕೃತಿಗೆ ಜೀವಂತತೆಯಿದೆ, ಇಲ್ಲಿ ವಿವಿಧ ಚಟುವಟಿಕೆಗಳು ನಡೆಯುತ್ತವೆ. ಯೋಗಾ ಕ್ಲಬ್ ಸಮುದ್ರತೀರದಲ್ಲಿ ಸಂತೋಷದ ಯೋಗಾ ಸೆಷನ್ ಅನ್ನು ಆಯೋಜಿಸಿತು, ಇದಕ್ಕೆ ಹಲವಾರು ಭಾಗವಹಿಸವರನ್ನು ಆಕರ್ಷಿಸಿತು. ಜೊತೆಗೆ, 22-09-2024 ರಂದು ಪ್ರಮುಖ ತೀರಾ ಸ್ವಚ್ಛತಾ ಅಭಿಯಾನ ನಡೆಯಿತು, ಇದರಲ್ಲಿ 300ಕ್ಕೂ ಹೆಚ್ಚು ಜನರು ಪರಿಸರದ ಪರವಾಗಿ ಸೇರಿಕೊಂಡರು. ಈ ಚಟುವಟಿಕೆಗಳು ನಿಟಿಕೆ ಸಮುದಾಯದ ಸೌಖ್ಯ ಮತ್ತು ಪರಿಸರ ಸಂರಕ್ಷಣೆಯ ಬದ್ಧತೆಯನ್ನು ತೋರಿಸುತ್ತವೆ.",
+      "emotion": "happy"
+    }
+  ]
+}

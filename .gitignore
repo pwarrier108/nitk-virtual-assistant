@@ -1,0 +1,303 @@
+# NITK Modular - Git Ignore File
+# Prevents sensitive and generated files from being committed to git
+
+# ============================================================================
+# SENSITIVE FILES - NEVER COMMIT
+# ============================================================================
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+Copyofenv.txt
+*.env.backup
+
+# API Keys and Credentials
+*credentials*.json
+*api_key*.txt
+*.pem
+*.key
+
+# Google Cloud credentials
+nitk-virtual-assistant-*.json
+google-*.json
+
+# LinkedIn cookies and session data
+linkedin_cookies.json
+*_cookies.json
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================================================
+# DATA & OUTPUTS
+# ============================================================================
+
+# Vector database (too large for git)
+outputs/chroma_db/
+outputs/chroma_db_dontdelete/
+
+# Generated outputs
+outputs/instagram/output-chunks/
+outputs/linkedin/output-chunks/
+outputs/website/output-chunks/
+outputs/**/*.jsonl
+outputs/**/*.csv
+
+# Input data (can be large)
+inputs/
+inputs/**/*
+
+# Cache directories
+cache/
+cache/**/*
+*.cache
+
+# Results and logs
+results/
+results/**/*.jsonl
+logs/
+logs/**/*.log
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ============================================================================
+# IDE & EDITOR
+# ============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*~
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# OPERATING SYSTEM
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# AUDIO & MEDIA
+# ============================================================================
+
+# Generated audio files (can be regenerated)
+audio/generated/
+cache/audio/**/*.mp3
+cache/audio/**/*.wav
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+
+# ============================================================================
+# MACHINE LEARNING & AI
+# ============================================================================
+
+# Model files (download separately)
+models/
+*.h5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+
+# Hugging Face cache
+.cache/huggingface/
+
+# spaCy models (download separately, but keep the reference)
+# Note: en_core_web_sm is installed via requirements
+
+# ============================================================================
+# PROJECT SPECIFIC
+# ============================================================================
+
+# Package verification outputs
+packageschecker_output.txt
+
+# Old/backup files
+*.old
+*.backup
+*_backup.py
+*_old.py
+
+# Test outputs
+test_output/
+test_results/
+
+# Development notes (uncomment if you want to keep local notes private)
+# NOTES.md
+# TODO.md
+# dev_notes/
+
+# ============================================================================
+# DOCUMENTATION BUILD
+# ============================================================================
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ============================================================================
+# KEEP THESE FILES
+# ============================================================================
+
+# Force include important example files
+!.env.example
+!README.md
+!**/README.md
+
+# Keep small config files
+!config/*.json
+
+# Keep requirements files
+!requirements*.txt
+
+# Keep audio templates (not generated)
+!audio/greeting.wav
+!audio/start_audio.wav
+!audio/record_finish.wav
+!audio/error.wav
+!audio/rag_error.wav
+!audio/translation_error.wav
+!audio/timeout_error.wav
