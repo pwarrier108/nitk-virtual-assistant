@@ -196,9 +196,8 @@ Always verify these are NOT being committed:
 git status
 
 # Ensure these are NOT listed:
-# ❌ .env or Copyofenv.txt
+# ❌ .env 
 # ❌ *credentials*.json or *api_key*.txt
-# ❌ linkedin_cookies.json
 # ❌ outputs/chroma_db/ (vector database)
 # ❌ cache/ (too large)
 # ❌ logs/ (not needed in repo)
