@@ -209,7 +209,7 @@ curl http://localhost:8000/health
 
 ### Robot Interface
 
-1. Say the wake word ("Hey Robot" or configured phrase)
+1. Say the wake word ("Hello HiWonder" or configured phrase)
 2. Wait for acknowledgment
 3. Ask your question
 4. Robot responds with speech and gestures
